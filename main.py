@@ -15,7 +15,7 @@ def main():
         num = random.randrange(1, 100)
         numbers.append(num)
         
-    total = sum(numbers)
+    total = sum(numbers) - num
 
 
     print(f'The random values are {numbers}')
