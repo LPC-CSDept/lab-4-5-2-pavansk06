@@ -13,7 +13,7 @@ def main():
     
     while sum(numbers) < 100:
         num = random.randrange(1, 100)
-        numbers.append()
+        numbers.append(num)
         
     total = sum(numbers)
 
