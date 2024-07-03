@@ -11,8 +11,8 @@ def main():
     ########################################
     """
     
-    while sum(numbers) > 100:
-        num = randrange(1, 100)
+    while sum(numbers) < 100:
+        num = random.randrange(1, 100)
         numbers.append()
         
     total = sum(numbers)
